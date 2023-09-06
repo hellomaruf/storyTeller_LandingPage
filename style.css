@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f6f6ee;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+}
+#heading p {
+  width: 50%;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#heading h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+#heading button {
+  padding: 12px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4vw;
+  width: 100%;
+  height: 15vh;
+  background-color: #f6f6ee;
+}
+#nav #links {
+  display: flex;
+  gap: 30px;
+}
+#nav #links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+#nav h3 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#nav h3 span {
+  font-weight: 600;
+}
+#illus {
+  width: 100%;
+}
+#illus img {
+  width: 100%;
+}
+#details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 5vw;
+  width: 100%;
+  margin-top: 50px;
+}
+#details #dleft {
+  width: 47%;
+  padding-right: 20px;
+  border-right: 3px solid black;
+}
+#details #dleft .sline {
+  width: 8%;
+  height: 2px;
+  background-color: black;
+  align-items: end;
+  margin: 40px 0;
+}
+
+#details #drignt {
+  width: 47%;
+}
+#details #drignt .feat {
+  display: flex;
+  gap: 20px;
+}
+#drignt .feat {
+  margin: 15% 0;
+}
+.featDet p {
+  margin-top: 20px;
+}
+
+.icon i {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+}
